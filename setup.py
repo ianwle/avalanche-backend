@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
-    version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    name='Seismic',
+    version='0.0.1',
+    description='',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Ian Wu',
+    author_email='iwle@berkeley.edu',
+    url='https://github.com/ianwle/seismic',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
