@@ -11,8 +11,7 @@ def get_results(state="", county="", event_time=datetime.datetime.now(), *others
         "q": [state, county, *others,"Earthquake"],
         "sortBy": "top",
         "language": "en",
-        "from": datetime.datetime.strftime(event_time - timedelta(days=0),
-                                           "%Y-%m-%dT%H:%M:%S%z"),
+        "from": datetime.datetime.strftime(event_time - timedelta(days=0), "%Y-%m-%dT%H:%M:%S%z"),
         "apiKey": NEWS_API_KEY
     }
     
